@@ -1,37 +1,25 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
 .Python
-env/
 venv/
 .env
-.venv/
 
-# Data files
-*.csv
-*.parquet
-data/raw/
-data/processed/
+# Data files (large)
+data/raw/*.csv
+data/processed/*.csv
 
-# Models
-models/
-*.pkl
-*.joblib
-
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
+# Trained models (can be large) - but allow source code
+models/*.joblib
+models/*.pkl
 
 # Logs
 logs/
 *.log
 
+# IDE
+.vscode/
+.DS_Store
+
 # MLflow
 mlruns/
-mlartifacts/
