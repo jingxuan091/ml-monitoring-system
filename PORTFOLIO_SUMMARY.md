@@ -1,4 +1,4 @@
-# ML Technical Portfolio: Fraud Detection System with Real-Time Monitoring
+# Summary: Fraud Detection System with Real-Time Monitoring
 
 ## System Architecture Overview
 
